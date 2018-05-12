@@ -21,7 +21,7 @@ if (z === 'hidden') {
     console.log('z === visible')
 } else {
     console.log('z === hidden')
-}
+};
 
 z === 'hidden' ? console.log('z === visible') : console.log('z === hidden');
 
@@ -34,8 +34,7 @@ if (y === 0) {
     console.log(y = 'less then zero')
 } else {
     console.log(y *= 10);
-}
-;
+};
 
 y === 0 ? console.log(y = 1) : y < 0 ? console.log(y = 'less then zero') : console.log(y *= 10);
 
@@ -54,7 +53,7 @@ switch (a) {
         break;
     default:
         console.log('default');
-}
+};
 
 //Преобразование типов.Задачи
 
