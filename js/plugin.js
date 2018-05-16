@@ -23,8 +23,8 @@ if (z === 'hidden') {
     console.log('z === hidden')
 };
 
-z === 'hidden' ? console.log('z === visible') : console.log('z === hidden');
-
+// z === 'hidden' ? console.log('z === visible') : console.log('z === hidden');
+z = z === 'hidden' ? 'visible' : 'hidden';
 //2
 let y;
 
@@ -36,7 +36,9 @@ if (y === 0) {
     console.log(y *= 10);
 };
 
-y === 0 ? console.log(y = 1) : y < 0 ? console.log(y = 'less then zero') : console.log(y *= 10);
+// y === 0 ? console.log(y = 1) : y < 0 ? console.log(y = 'less then zero') : console.log(y *= 10);
+y = y === 0 ? 1 : y < 0 ? 'less then zero' : * 10;
+console.log (y);
 
 // Switch ... ccase. Задача
 let a;
